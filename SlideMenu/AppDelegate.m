@@ -7,7 +7,11 @@
 //
 
 #import "AppDelegate.h"
-
+#import "SlideNavigationController.h"
+#import "ViewController1.h"
+#import "ViewController2.h"
+#import "ViewController3.h"
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +20,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    [self.window setRootViewController:[[SlideNavigationController alloc] initWithRootViewController:[ViewController new]]];
+    
+    ViewController2 *vc2 = [ViewController2 new];
+    ViewController1 *vc1 = [ViewController1 new];
+    
+    [SlideNavigationController sharedInstance].leftMenu = vc1;
+    [SlideNavigationController sharedInstance].rightMenu = vc2;
+    
+    [SlideNavigationController sharedInstance].portraitSlideOffset = 150;
+    [SlideNavigationController sharedInstance].panGestureSideOffset = 150;
+
     return YES;
 }
 

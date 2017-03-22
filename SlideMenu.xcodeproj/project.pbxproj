@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C44A93B1E8261C60084F4AC /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C44A9391E8261C60084F4AC /* ViewController4.m */; };
+		3C44A93C1E8261C60084F4AC /* ViewController4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C44A93A1E8261C60084F4AC /* ViewController4.xib */; };
+		3C44A9451E826C970084F4AC /* ViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C44A9431E826C970084F4AC /* ViewController5.m */; };
+		3C44A9461E826C970084F4AC /* ViewController5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C44A9441E826C970084F4AC /* ViewController5.xib */; };
 		3C9488D91E8258A7006C36B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9488D81E8258A7006C36B7 /* main.m */; };
 		3C9488DC1E8258A7006C36B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9488DB1E8258A7006C36B7 /* AppDelegate.m */; };
 		3C9488DF1E8258A7006C36B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9488DE1E8258A7006C36B7 /* ViewController.m */; };
@@ -15,6 +19,20 @@
 		3C9488E71E8258A7006C36B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9488E51E8258A7006C36B7 /* LaunchScreen.storyboard */; };
 		3C9488F21E8258A7006C36B7 /* SlideMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9488F11E8258A7006C36B7 /* SlideMenuTests.m */; };
 		3C9488FD1E8258A7006C36B7 /* SlideMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9488FC1E8258A7006C36B7 /* SlideMenuUITests.m */; };
+		3C94891C1E8258C9006C36B7 /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94890E1E8258C9006C36B7 /* SlideNavigationContorllerAnimatorFade.m */; };
+		3C94891D1E8258C9006C36B7 /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9489101E8258C9006C36B7 /* SlideNavigationContorllerAnimatorScale.m */; };
+		3C94891E1E8258C9006C36B7 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9489121E8258C9006C36B7 /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
+		3C94891F1E8258C9006C36B7 /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9489141E8258C9006C36B7 /* SlideNavigationContorllerAnimatorSlide.m */; };
+		3C9489201E8258C9006C36B7 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9489161E8258C9006C36B7 /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
+		3C9489211E8258C9006C36B7 /* menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C9489181E8258C9006C36B7 /* menu-button.png */; };
+		3C9489221E8258C9006C36B7 /* menu-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C9489191E8258C9006C36B7 /* menu-button@2x.png */; };
+		3C9489231E8258C9006C36B7 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94891B1E8258C9006C36B7 /* SlideNavigationController.m */; };
+		3C94892A1E825993006C36B7 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9489281E825993006C36B7 /* ViewController1.m */; };
+		3C94892B1E825993006C36B7 /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C9489291E825993006C36B7 /* ViewController1.xib */; };
+		3C94892F1E8259A2006C36B7 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94892D1E8259A2006C36B7 /* ViewController2.m */; };
+		3C9489301E8259A2006C36B7 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C94892E1E8259A2006C36B7 /* ViewController2.xib */; };
+		3C9489341E8259AF006C36B7 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9489321E8259AF006C36B7 /* ViewController3.m */; };
+		3C9489351E8259AF006C36B7 /* ViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C9489331E8259AF006C36B7 /* ViewController3.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +53,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C44A9381E8261C60084F4AC /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
+		3C44A9391E8261C60084F4AC /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
+		3C44A93A1E8261C60084F4AC /* ViewController4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController4.xib; sourceTree = "<group>"; };
+		3C44A9421E826C970084F4AC /* ViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController5.h; sourceTree = "<group>"; };
+		3C44A9431E826C970084F4AC /* ViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController5.m; sourceTree = "<group>"; };
+		3C44A9441E826C970084F4AC /* ViewController5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController5.xib; sourceTree = "<group>"; };
 		3C9488D41E8258A7006C36B7 /* SlideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9488D81E8258A7006C36B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3C9488DA1E8258A7006C36B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +75,30 @@
 		3C9488F81E8258A7006C36B7 /* SlideMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9488FC1E8258A7006C36B7 /* SlideMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideMenuUITests.m; sourceTree = "<group>"; };
 		3C9488FE1E8258A7006C36B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C94890C1E8258C9006C36B7 /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
+		3C94890D1E8258C9006C36B7 /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
+		3C94890E1E8258C9006C36B7 /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
+		3C94890F1E8258C9006C36B7 /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
+		3C9489101E8258C9006C36B7 /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
+		3C9489111E8258C9006C36B7 /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
+		3C9489121E8258C9006C36B7 /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
+		3C9489131E8258C9006C36B7 /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
+		3C9489141E8258C9006C36B7 /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
+		3C9489151E8258C9006C36B7 /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
+		3C9489161E8258C9006C36B7 /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
+		3C9489181E8258C9006C36B7 /* menu-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button.png"; sourceTree = "<group>"; };
+		3C9489191E8258C9006C36B7 /* menu-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button@2x.png"; sourceTree = "<group>"; };
+		3C94891A1E8258C9006C36B7 /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
+		3C94891B1E8258C9006C36B7 /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
+		3C9489271E825993006C36B7 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		3C9489281E825993006C36B7 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		3C9489291E825993006C36B7 /* ViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController1.xib; sourceTree = "<group>"; };
+		3C94892C1E8259A2006C36B7 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		3C94892D1E8259A2006C36B7 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		3C94892E1E8259A2006C36B7 /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
+		3C9489311E8259AF006C36B7 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		3C9489321E8259AF006C36B7 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		3C9489331E8259AF006C36B7 /* ViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController3.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +153,23 @@
 				3C9488DB1E8258A7006C36B7 /* AppDelegate.m */,
 				3C9488DD1E8258A7006C36B7 /* ViewController.h */,
 				3C9488DE1E8258A7006C36B7 /* ViewController.m */,
+				3C9489271E825993006C36B7 /* ViewController1.h */,
+				3C9489281E825993006C36B7 /* ViewController1.m */,
+				3C9489291E825993006C36B7 /* ViewController1.xib */,
+				3C94892C1E8259A2006C36B7 /* ViewController2.h */,
+				3C94892D1E8259A2006C36B7 /* ViewController2.m */,
+				3C94892E1E8259A2006C36B7 /* ViewController2.xib */,
+				3C9489311E8259AF006C36B7 /* ViewController3.h */,
+				3C9489321E8259AF006C36B7 /* ViewController3.m */,
+				3C9489331E8259AF006C36B7 /* ViewController3.xib */,
+				3C44A9381E8261C60084F4AC /* ViewController4.h */,
+				3C44A9391E8261C60084F4AC /* ViewController4.m */,
+				3C44A93A1E8261C60084F4AC /* ViewController4.xib */,
+				3C44A9421E826C970084F4AC /* ViewController5.h */,
+				3C44A9431E826C970084F4AC /* ViewController5.m */,
+				3C44A9441E826C970084F4AC /* ViewController5.xib */,
 				3C9488E01E8258A7006C36B7 /* Main.storyboard */,
+				3C94890A1E8258C9006C36B7 /* iOS-Slide-Menu */,
 				3C9488E31E8258A7006C36B7 /* Assets.xcassets */,
 				3C9488E51E8258A7006C36B7 /* LaunchScreen.storyboard */,
 				3C9488E81E8258A7006C36B7 /* Info.plist */,
@@ -138,6 +202,44 @@
 				3C9488FE1E8258A7006C36B7 /* Info.plist */,
 			);
 			path = SlideMenuUITests;
+			sourceTree = "<group>";
+		};
+		3C94890A1E8258C9006C36B7 /* iOS-Slide-Menu */ = {
+			isa = PBXGroup;
+			children = (
+				3C94890B1E8258C9006C36B7 /* Animations */,
+				3C9489171E8258C9006C36B7 /* Assets */,
+				3C94891A1E8258C9006C36B7 /* SlideNavigationController.h */,
+				3C94891B1E8258C9006C36B7 /* SlideNavigationController.m */,
+			);
+			path = "iOS-Slide-Menu";
+			sourceTree = "<group>";
+		};
+		3C94890B1E8258C9006C36B7 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				3C94890C1E8258C9006C36B7 /* SlideNavigationContorllerAnimator.h */,
+				3C94890D1E8258C9006C36B7 /* SlideNavigationContorllerAnimatorFade.h */,
+				3C94890E1E8258C9006C36B7 /* SlideNavigationContorllerAnimatorFade.m */,
+				3C94890F1E8258C9006C36B7 /* SlideNavigationContorllerAnimatorScale.h */,
+				3C9489101E8258C9006C36B7 /* SlideNavigationContorllerAnimatorScale.m */,
+				3C9489111E8258C9006C36B7 /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				3C9489121E8258C9006C36B7 /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				3C9489131E8258C9006C36B7 /* SlideNavigationContorllerAnimatorSlide.h */,
+				3C9489141E8258C9006C36B7 /* SlideNavigationContorllerAnimatorSlide.m */,
+				3C9489151E8258C9006C36B7 /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				3C9489161E8258C9006C36B7 /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		3C9489171E8258C9006C36B7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3C9489181E8258C9006C36B7 /* menu-button.png */,
+				3C9489191E8258C9006C36B7 /* menu-button@2x.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +351,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C94892B1E825993006C36B7 /* ViewController1.xib in Resources */,
+				3C9489211E8258C9006C36B7 /* menu-button.png in Resources */,
+				3C44A9461E826C970084F4AC /* ViewController5.xib in Resources */,
 				3C9488E71E8258A7006C36B7 /* LaunchScreen.storyboard in Resources */,
+				3C44A93C1E8261C60084F4AC /* ViewController4.xib in Resources */,
 				3C9488E41E8258A7006C36B7 /* Assets.xcassets in Resources */,
+				3C9489221E8258C9006C36B7 /* menu-button@2x.png in Resources */,
 				3C9488E21E8258A7006C36B7 /* Main.storyboard in Resources */,
+				3C9489351E8259AF006C36B7 /* ViewController3.xib in Resources */,
+				3C9489301E8259A2006C36B7 /* ViewController2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +385,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C94892A1E825993006C36B7 /* ViewController1.m in Sources */,
+				3C9489231E8258C9006C36B7 /* SlideNavigationController.m in Sources */,
+				3C9489341E8259AF006C36B7 /* ViewController3.m in Sources */,
+				3C94891D1E8258C9006C36B7 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
+				3C94892F1E8259A2006C36B7 /* ViewController2.m in Sources */,
+				3C44A93B1E8261C60084F4AC /* ViewController4.m in Sources */,
+				3C94891E1E8258C9006C36B7 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
+				3C44A9451E826C970084F4AC /* ViewController5.m in Sources */,
 				3C9488DF1E8258A7006C36B7 /* ViewController.m in Sources */,
 				3C9488DC1E8258A7006C36B7 /* AppDelegate.m in Sources */,
+				3C94891C1E8258C9006C36B7 /* SlideNavigationContorllerAnimatorFade.m in Sources */,
 				3C9488D91E8258A7006C36B7 /* main.m in Sources */,
+				3C9489201E8258C9006C36B7 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				3C94891F1E8258C9006C36B7 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +634,7 @@
 				3C9489031E8258A7006C36B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C9489041E8258A7006C36B7 /* Build configuration list for PBXNativeTarget "SlideMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +643,7 @@
 				3C9489061E8258A7006C36B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C9489071E8258A7006C36B7 /* Build configuration list for PBXNativeTarget "SlideMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +652,7 @@
 				3C9489091E8258A7006C36B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

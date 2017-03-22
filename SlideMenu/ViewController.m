@@ -16,14 +16,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"首页";
+    self.view.backgroundColor = [UIColor whiteColor];
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+//允许左滑
+- (BOOL)slideNavigationControllerShouldDisplayLeftMenu
+{
+    return YES;
 }
-
-
+//允许右滑
+- (BOOL)slideNavigationControllerShouldDisplayRightMenu
+{
+    return YES;
+}
 @end
